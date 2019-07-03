@@ -74,7 +74,9 @@ input[value]
 
 span
 {
+    background: #333333;
     margin: 0px 24px;
+    padding: 6px 24px;
     font-weight: 900;
     animation: rainbow 1s linear;
     animation-iteration-count: infinite;
