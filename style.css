@@ -68,7 +68,8 @@ input
 input[value]
 {
     background: #880000;
-    color: #FF4444;
+    color: #002222;
+    font-weight: 900;
     padding: 12px;
 }
 
