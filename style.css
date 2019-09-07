@@ -73,6 +73,15 @@ input[value]
     padding: 12px;
 }
 
+input[value]:hover
+{
+    background: #440000;
+    color: #0088FF;
+    font-weight: 900;
+    padding: 12px;
+    border-color: #FFFF00;
+}
+
 span
 {
     background: #333333;
