@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <title>Gacha Test</title>
         <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
     </head>
     <body>
         <hgroup>
@@ -13,14 +14,14 @@
         <table>
             <tr>
                 <td>You have</td>
-                <td><input type="text" value="1000000" readonly="readonly" name="have" /></td>
+                <td><input id="have" type="text" value="1000000" readonly="readonly" name="have" /></td>
             </tr>
             <tr>
                 <td>You played</td>
-                <td><input type="text" value="0" readonly="readonly" name="played" /></td>
+                <td><input id="played" type="text" value="0" readonly="readonly" name="played" /></td>
             </tr>
             <tr>
-                <td colspan="2"><span>75% or 130%</span><button>PLAY</button></td>
+                <td colspan="2"><span>75% or 130%</span><button onclick="play()">PLAY</button></td>
             </tr>
         </table>
         <a href="register.html">Reset</a>
