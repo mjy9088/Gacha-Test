@@ -19,6 +19,8 @@ body
     box-sizing: border-box;
     color: #BB88FF;
     background: #334422;
+    display: flex;
+    flex-direction: column;
 }
 
 hgroup
@@ -90,6 +92,17 @@ span
     font-weight: 900;
     animation: rainbow 1s linear;
     animation-iteration-count: infinite;
+}
+
+textarea
+{
+    flex: 1;
+    margin-top: 24px;
+    padding: 12px;
+    font-size: 2em;
+    background: #88888822;
+    border: 1px solid #FFFFFF22;
+    resize: none;
 }
 
 @keyframes rainbow
