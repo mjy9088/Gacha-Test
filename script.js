@@ -3,6 +3,19 @@ var played = 0;
 
 var win = 0, lose = 0;
 
+function reset() {
+    have = 1000000;
+    played = 0;
+    document.getElementById('have').value = have;
+    document.getElementById('played').value = played;
+    var log = document.getElementById('log');
+    log.value = 'RESET!\n' + log.value;
+}
+
+function clear() {
+    document.getElementById('log').value = '';
+}
+
 function play() {
     var good = Math.floor(Math.random() * 2);
     var prev = have;
