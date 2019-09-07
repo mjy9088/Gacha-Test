@@ -60,14 +60,14 @@ td
     text-align: right;
 }
 
-input
+button, input
 {
     font-size: 1.2em;
     background: #DDDDDD;
     color: #333333;
 }
 
-input[value]
+button
 {
     background: #880000;
     color: #002222;
@@ -75,7 +75,7 @@ input[value]
     padding: 12px;
 }
 
-input[value]:hover
+button:hover
 {
     background: #440000;
     color: #0088FF;
